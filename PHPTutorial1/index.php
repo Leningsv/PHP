@@ -1,3 +1,15 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>My first PHP page</h1>
+
+<?php
+echo "Hello World!";
+?>
+
+</body>
+</html>
 <?php
     class Persona{
         //Atributos
@@ -9,7 +21,7 @@
         }
     }
     $persona= new Persona();
-    echo $persona -> nombre;
+    echo $persona -> nombre.'<br>';
     echo $persona -> lastName;
     $persona -> hablar(' Saludos Lenin');
 ?>
